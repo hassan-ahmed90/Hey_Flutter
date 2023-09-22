@@ -35,7 +35,7 @@ class _StreamClassState extends State<StreamClass> {
         child: Icon(Icons.refresh),
         onPressed: (){
           setState(() {
-            no=numberStream();
+           // no=numberStream();
           });
         },
       ),
